@@ -1,6 +1,8 @@
+README.md
 setup.py
 viscli/__init__.py
 viscli/cli.py
+viscli/session_manager.py
 viscli/settings.py
 viscli.egg-info/PKG-INFO
 viscli.egg-info/SOURCES.txt
@@ -15,8 +17,5 @@ viscli/commands/init_db.py
 viscli/commands/load.py
 viscli/commands/run.py
 viscli/commands/search_db.py
+viscli/commands/set_key.py
 viscli/commands/suggest.py
-viscli/utils/__init__.py
-viscli/utils/embeddings.py
-viscli/utils/faiss_handler.py
-viscli/utils/gpt.py

@@ -1,0 +1,26 @@
+# Core CLI functionality
+click
+
+# Data handling
+pandas
+
+# Visualization libraries
+matplotlib
+seaborn
+
+# OpenAI API integration
+openai
+
+# Environment variable management
+python-dotenv
+
+# FAISS for vector search
+faiss-cpu
+
+# LangChain for embeddings and vector database management
+langchain
+langchain-openai  # Updated: Separate package for OpenAI embeddings
+langchain-community  # Updated: Community vectorstore tools
+
+# Tokenization for OpenAI embeddings
+tiktoken
