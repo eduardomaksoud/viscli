@@ -1,0 +1,3 @@
+[console_scripts]
+viscli = viscli.cli:main
+

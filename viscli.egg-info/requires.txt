@@ -1,0 +1,4 @@
+click
+faiss-cpu
+matplotlib
+openai
