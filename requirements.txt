@@ -24,3 +24,9 @@ langchain-community  # Updated: Community vectorstore tools
 
 # Tokenization for OpenAI embeddings
 tiktoken
+
+# Testing the CLI
+pytest
+pytest-cov
+pytest-mock
+

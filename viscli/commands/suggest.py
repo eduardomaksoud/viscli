@@ -19,8 +19,6 @@ def suggest_command(output):
         dataset_summary = session.get("dataset_summary")
         faiss_db_path = session.get("faiss_db_path")
 
-        click.echo(f"Current Session Data: {json.dumps(session.data, indent=4)}")
-
         if not question or not dataset_summary:
             click.echo("Error: Question or dataset summary not found. Use `ask` and `load` first.")
             return
@@ -83,7 +81,6 @@ def suggest_command(output):
         for suggestion in suggestions:
             query = f"Best practices for {suggestion['type']} visualization"
             results = vector_store.similarity_search(query, k=3)
-            print(results)
             suggestion["notes"] = [result.page_content for result in results]
 
         # Save suggestions

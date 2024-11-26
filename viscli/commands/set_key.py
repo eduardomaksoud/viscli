@@ -11,8 +11,10 @@ def set_key_command(api_key):
     """
     Set the OpenAI API key in the .env file.
     """
-    env_path = os.path.join(os.getcwd(), ".env")
+    # Path to the .env file
+    env_path = os.getenv("DOTENV_PATH", os.path.join(os.getcwd(), ".env"))
     try:
+        # Save the key in the .env file
         set_key(env_path, "OPENAI_API_KEY", api_key)
         click.echo("OpenAI API key has been set successfully.")
     except Exception as e:

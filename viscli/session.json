@@ -1,0 +1,12 @@
+{
+    "question": "What are the sales trends?",
+    "dataset_summary": {
+        "dataset_name": "data.csv",
+        "columns": [
+            "Date",
+            "Sales"
+        ]
+    },
+    "faiss_db": "mock-vectorstore",
+    "faiss_db_path": "/tmp/pytest-of-eduardo/pytest-40/test_suggest_command0/mock_faiss_db"
+}
