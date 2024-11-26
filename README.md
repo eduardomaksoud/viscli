@@ -53,7 +53,7 @@ pip install -r requirements.txt
 
 
 ## Próximos Passos
-Agora que o ambiente está configurado, você pode consultar a Wiki do Projeto para mais informações sobre como usar o **VisCli** e realizar as operações de recomendação de visualizações.
+Agora que o ambiente está configurado, você pode consultar a [Wiki](https://github.com/eduardomaksoud/viscli/wiki) do Projeto para mais informações sobre como usar o **VisCli** e realizar as operações de recomendação de visualizações.
 
 ## Licença
 Este projeto está licenciado sob a MIT License.
